@@ -12,9 +12,9 @@
     <div class="nav-container">
       <span class="logo">Kerl0s_</span>
       <div class="nav-links">
-        <a href="#hero" data-i18n="nav_home">Accueil</a>
-        <a href="#projects" data-i18n="nav_projects">Projets</a>
-        <a href="#contact" data-i18n="nav_contact">Contact</a>
+        <a href="#home">Accueil</a>
+        <a href="#about">Projets</a>
+        <a href="#projects">Contact</a>
       </div>
       <!-- Sélecteur de langue -->
       <select id="lang-switcher">
@@ -24,25 +24,41 @@
     </div>
   </nav>
 
-  <!-- HERO -->
-  <section id="hero" class="hero">
+  <!-- SECTION HERO -->
+  <section id="home" class="home">
     <h1 class="bouncy-text">
       <span>K</span><span>e</span><span>r</span><span>l</span><span>0</span><span>s</span><span>_</span>
     </h1>
-    <p data-i18n="hero_subtitle">Développeur passionné 🚀 | Explore mes projets & créations</p>
+    <p data-i18n="home_subtitle">Développeur passionné 🚀 | Explore mes projets & créations</p>
     <div class="links">
       <a href="https://github.com/Kerl0s-dev" target="_blank" class="github" data-i18n="btn_github">Mon GitHub</a>
       <a href="https://www.youtube.com/@kerl0s_dev" target="_blank" class="youtube" data-i18n="btn_youtube">Ma chaîne YouTube</a>
     </div>
   </section>
 
-  <!-- CONTACT -->
-  <section id="contact" class="contact">
-    <h2 data-i18n="contact_title">Me contacter</h2>
-    <p data-i18n="contact_text">Envie de collaborer ? Un projet à partager ?</p>
-    <a href="mailto:tonmail@example.com" class="mail-btn" data-i18n="btn_mail">M’écrire ✉️</a>
+  <!-- SECTION À PROPOS -->
+  <section id="about" class="about">
+    <h2>À propos</h2>
+    <p>Je suis un développeur passionné par la création de projets innovants,
+      pas seulement des lignes de code, mais des expériences interactives.</p>
   </section>
 
+  <!-- SECTION PROJETS -->
+  <section id="projects" class="projects">
+    <h2>Mes projets</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Nexus Protocol</h3>
+        <p>Un jeu 3D inspiré de Portal. </p>
+        <a href="https://github.com/Kerl0s-dev/nexus-protocol" target="_blank">Voir le projet</a>
+      </div>
+      <div class="project-card">
+        <h3>Mod Menu GTA V</h3>
+        <p>Un menu modulaire avec freecam, auto-drive et plein de features.</p>
+        <a href="https://github.com/ton_pseudo/gta-v-modmenu" target="_blank">Voir le projet</a>
+      </div>
+    </div>
+  </section>
   <footer>© 2025 Kerl0s_</footer>
 
   <script src="translations.js"></script>

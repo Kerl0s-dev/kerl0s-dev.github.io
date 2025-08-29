@@ -51,7 +51,7 @@ section {
 }
 
 /* ===== HERO ===== */
-.hero {
+.home {
   height: 100vh;
   display: flex;
   flex-direction: column;
