@@ -36,22 +36,19 @@ body {
   color: #fff;
   text-decoration: none;
   font-weight: 500;
-  transition: color 0.2s, transform 0.2s, box-shadow 0.2s;
+  transition: color 0.2s;
 }
 
 .nav-links a:hover {
   color: #00c896;
-  transform: translateY(-3px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
 }
 
-/* Pour que la page ne soit pas cachée sous le navbar */
-section {
-  scroll-margin-top: 70px; /* hauteur approximative du navbar */
+.nav-links .active {
+  color: #00c896;
 }
 
 /* ===== HERO ===== */
-.home {
+.hero {
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -77,34 +74,35 @@ p {
   justify-content: center;
 }
 
-a {
-  display: inline-block;
+a.github {
+  background: #24292e;
+  color: #fff;
   padding: 0.8rem 1.5rem;
   border-radius: 12px;
   text-decoration: none;
   font-weight: bold;
-  transition: transform 0.2s, box-shadow 0.2s;
-}
-
-a.github {
-  background: #24292e;
-  color: #fff;
 }
 
 a.youtube {
   background: #ff0000;
   color: #fff;
+  padding: 0.8rem 1.5rem;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-a:hover {
+a.github:hover,
+a.youtube:hover {
   transform: translateY(-3px);
   box-shadow: 0 4px 12px rgba(0,0,0,0.4);
 }
 
 /* ===== PROJETS ===== */
 .projects {
-  padding: 5rem 2rem;
+  padding: 7rem 2rem 5rem;
   background: #2b2b40;
+  min-height: 100vh;
 }
 
 .projects h2 {
@@ -141,32 +139,12 @@ a:hover {
   text-decoration: none;
 }
 
-/* ===== CONTACT ===== */
-.contact {
-  padding: 5rem 2rem;
-  background: #1e1e2f;
-}
-
-.contact h2 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-}
-
-.mail-btn {
-  display: inline-block;
-  background: #00c896;
-  color: #fff;
-  padding: 0.8rem 1.5rem;
-  border-radius: 12px;
-  text-decoration: none;
-  font-weight: bold;
-}
-
 footer {
   padding: 1rem;
   font-size: 0.8rem;
   background: #111;
   color: #aaa;
+  margin-top: auto;
 }
 
 /* ===== BOUNCY TEXT ===== */

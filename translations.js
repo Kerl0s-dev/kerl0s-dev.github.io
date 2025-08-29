@@ -3,24 +3,18 @@ const translations = {
   fr: {
     nav_home: "Accueil",
     nav_projects: "Projets",
-    nav_contact: "Contact",
+    nav_about: "À propos",
     hero_subtitle: "Développeur passionné 🚀 | Explore mes projets & créations",
     btn_github: "Mon GitHub",
-    btn_youtube: "Ma chaîne YouTube",
-    contact_title: "Me contacter",
-    contact_text: "Envie de collaborer ? Un projet à partager ?",
-    btn_mail: "M’écrire ✉️",
+    btn_youtube: "Ma chaîne YouTube"
   },
   en: {
     nav_home: "Home",
     nav_projects: "Projects",
-    nav_contact: "Contact",
+    nav_about: "About",
     hero_subtitle: "Passionate developer 🚀 | Explore my projects & creations",
     btn_github: "My GitHub",
-    btn_youtube: "My YouTube channel",
-    contact_title: "Contact me",
-    contact_text: "Want to collaborate? Got a project to share?",
-    btn_mail: "Write me ✉️",
+    btn_youtube: "My YouTube channel"
   }
 };
 
