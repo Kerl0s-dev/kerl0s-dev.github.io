@@ -140,6 +140,8 @@ a.youtube:hover {
 }
 
 footer {
+  position: fixed;
+  top: 0;
   padding: 1rem;
   font-size: 0.8rem;
   background: #111;
