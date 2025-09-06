@@ -19,18 +19,6 @@ body {
     margin-bottom: 1rem;
 }
 
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    padding: 1rem;
-    font-size: 0.8rem;
-    background: #111;
-    color: #aaa;
-    margin-top: auto;
-    text-align: center;
-}
-
 .hub-links {
     display: flex;
     gap: 1rem;
@@ -57,4 +45,17 @@ footer {
 .hub-links a:hover {
     background-color: #ff4040;
     transform: translateY(-3px) scale(1.05);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+    font-size: 0.8rem;
+    background: #111;
+    color: #aaa;
+    margin-top: auto;
+    text-align: center;
 }

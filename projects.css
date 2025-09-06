@@ -88,6 +88,7 @@ body {
 footer {
     position: fixed;
     bottom: 0;
+    left: 0;
     width: 100%;
     padding: 1rem;
     font-size: 0.8rem;
@@ -95,5 +96,4 @@ footer {
     color: #aaa;
     margin-top: auto;
     text-align: center;
-    transition: font-size 0.1s;
 }
