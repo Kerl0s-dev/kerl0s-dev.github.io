@@ -10,14 +10,22 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100vh; /* <-- ajoute ça */
+    min-height: 100vh;
 }
 
 .logo-text {
     font-size: 3rem;
     font-weight: bold;
     margin-bottom: 1rem;
-    font-family: monospace
+    font-family: monospace;
+    text-shadow: 0 0 10px #ff4040, 0 0 10px #ff4040, 0 0 20px #ff4040;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    color: #bbb;
+    font-style: italic;
+    margin-top: 0.5rem;
 }
 
 .hub-links {
@@ -40,12 +48,13 @@ body {
     border-radius: 4px;
     width: 150px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-    transition: background-color 0.3s, transform 0.2s;
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
 }
 
 .hub-links a:hover {
     background-color: #ff4040;
     transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 0 10px #ff4040, 0 0 20px #ff4040;
 }
 
 footer {

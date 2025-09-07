@@ -48,13 +48,14 @@ body {
     width: 100%;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-    transition: background-color 0.3s, transform 0.2s;
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
     margin-top: auto; /* <-- pousse le lien en bas */
 }
 
 .project-card a:hover {
     background-color: #ff4040;
     transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 0 10px #ff4040, 0 0 20px #ff4040;
 }
 
 .hub-links {
@@ -77,12 +78,13 @@ body {
     padding: 0.5rem 1rem;
     border-radius: 4px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-    transition: background-color 0.3s, transform 0.2s;
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
 }
 
 .hub-links a:hover {
     background-color: #ff4040;
     transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 0 10px #ff4040, 0 0 20px #ff4040;
 }
 
 footer {
