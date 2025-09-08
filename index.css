@@ -18,11 +18,12 @@ body {
     font-weight: bold;
     margin-bottom: 1rem;
     font-family: monospace;
-    transition: transform 0.2s, text-shadow 0.3s;
+    transition: transform 0.2s, color 0.3s, text-shadow 0.3s;
 }
 
 .logo-text:hover {
     text-shadow: 0 0 10px #ff4040, 0 0 10px #ff4040, 0 0 20px #ff4040;
+    color: #ff4040;
     transform: scale(1.1);
 }
 
