@@ -124,6 +124,15 @@ body {
     box-shadow: 0 0 10px #ff4040, 0 0 20px #ff4040;
 }
 
+.other {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
 .hub-links {
     display: flex;
     gap: 1rem;
