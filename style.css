@@ -2,7 +2,30 @@ body {
     background-color: #252525;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
+}
+
+.hero {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.logo-text {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    font-family: monospace;
+    transition: transform 0.2s, color 0.3s, text-shadow 0.3s;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    color: #bbb;
+    font-style: italic;
+    margin-top: 0.5rem;
 }
 
 .projects {
@@ -32,12 +55,12 @@ body {
     border-radius: 12px;
     width: 100%;
     min-height: 150px;
-    transition: transform 0.3s, box-shadow 0.3s;
+    transition: transform 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
 }
 
 .project-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0,0,0,0.5);
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 0 10px #ff4040, 0 0 20px #ff4040;
 }
 
 .project-card a {
@@ -60,24 +83,68 @@ body {
     box-shadow: 0 0 10px #ff4040, 0 0 20px #ff4040;
 }
 
+.about {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh; /* <-- ajoute ça */
+}
+
+.about-text {
+    text-align: left;
+}
+
+.links {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+    background-color: #444444;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    width: 180px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+}
+
+.links a:hover {
+    background-color: #ff4040;
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 0 10px #ff4040, 0 0 20px #ff4040;
+}
+
 .hub-links {
     display: flex;
     gap: 1rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
     flex-wrap: wrap;
     justify-content: center;
+    background-color: #333;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .hub-links a {
     text-decoration: none;
     color: white;
-    background-color: #444;
-    width: 120px; /* largeur fixe */
+    background-color: #444444;
     padding: 0.5rem 1rem;
     border-radius: 4px;
+    width: 150px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.3);
     transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
-    text-align: center;
 }
 
 .hub-links a:hover {
@@ -95,5 +162,6 @@ footer {
     font-size: 0.8rem;
     background: #111;
     color: #aaa;
+    margin-top: auto;
     text-align: center;
 }
