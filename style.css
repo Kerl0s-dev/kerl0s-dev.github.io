@@ -60,7 +60,7 @@ body {
 
 .project-card:hover {
     transform: translateY(-5px) scale(1.05);
-    box-shadow: 0 0 10px #ff4040, 0 0 20px #ff4040;
+    box-shadow: 0 0 20px #ff4040, inset 0 0 20px #ff4040, 0 0 3px 1px white, inset 0 0 3px 1px white;
 }
 
 .project-card a {
@@ -72,15 +72,14 @@ body {
     width: 120px; /* largeur fixe */
     text-align: center;
     box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-    transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+    transition: transform 0.2s, box-shadow 0.3s;
     margin-top: auto;
     align-self: center; /* centre le bouton horizontalement */
 }
 
 .project-card a:hover {
-    background-color: #ff4040;
     transform: translateY(-3px) scale(1.05);
-    box-shadow: 0 0 10px #ff4040, 0 0 20px #ff4040;
+    box-shadow: 0 0 20px #ff4040, inset 0 0 20px #ff4040, 0 0 5px white, inset 0 0 5px white;
 }
 
 .about {
@@ -115,13 +114,12 @@ body {
     width: 180px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-    transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+    transition: transform 0.2s, box-shadow 0.3s;
 }
 
 .links a:hover {
-    background-color: #ff4040;
     transform: translateY(-3px) scale(1.05);
-    box-shadow: 0 0 10px #ff4040, 0 0 20px #ff4040;
+    box-shadow: 0 0 20px #ff4040, inset 0 0 20px #ff4040, 0 0 5px white, inset 0 0 5px white;
 }
 
 .other {
@@ -148,18 +146,16 @@ body {
 .hub-links a {
     text-decoration: none;
     color: white;
-    background-color: #444444;
     padding: 0.5rem 1rem;
     border-radius: 4px;
     width: 150px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-    transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+    transition: transform 0.2s, box-shadow 0.3s;
 }
 
 .hub-links a:hover {
-    background-color: #ff4040;
     transform: translateY(-3px) scale(1.05);
-    box-shadow: 0 0 10px #ff4040, 0 0 20px #ff4040;
+    box-shadow: 0 0 20px #ff4040, inset 0 0 20px #ff4040, 0 0 5px white, inset 0 0 5px white;
 }
 
 footer {
