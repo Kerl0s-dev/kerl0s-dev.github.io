@@ -79,7 +79,7 @@ body {
 
 .project-card a:hover {
     transform: translateY(-3px) scale(1.05);
-    box-shadow: 0 0 20px #ff4040, inset 0 0 20px #ff4040, 0 0 5px white, inset 0 0 5px white;
+    box-shadow: 0 0 20px #ff4040, inset 0 0 20px #ff4040, 0 0 3px 1px white, inset 0 0 3px 1px white;
 }
 
 .about {
@@ -119,7 +119,7 @@ body {
 
 .links a:hover {
     transform: translateY(-3px) scale(1.05);
-    box-shadow: 0 0 20px #ff4040, inset 0 0 20px #ff4040, 0 0 5px white, inset 0 0 5px white;
+    box-shadow: 0 0 20px #ff4040, inset 0 0 20px #ff4040, 0 0 3px 1px white, inset 0 0 3px 1px white;
 }
 
 .other {
@@ -155,7 +155,7 @@ body {
 
 .hub-links a:hover {
     transform: translateY(-3px) scale(1.05);
-    box-shadow: 0 0 20px #ff4040, inset 0 0 20px #ff4040, 0 0 5px white, inset 0 0 5px white;
+    box-shadow: 0 0 20px #ff4040, inset 0 0 20px #ff4040, 0 0 3px 1px white, inset 0 0 3px 1px white;
 }
 
 footer {
