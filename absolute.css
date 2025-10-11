@@ -1,0 +1,45 @@
+body {
+    background-color: #252525;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hub-links {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #333;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.hub-links a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    width: 150px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.hub-links a:hover {
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 0 20px #ff4040, inset 0 0 20px #ff4040, 0 0 3px 1px white, inset 0 0 3px 1px white;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+    font-size: 0.8rem;
+    background: #111;
+    color: #aaa;
+    margin-top: auto;
+    text-align: center;
+}

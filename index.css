@@ -1,0 +1,23 @@
+.hero {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.logo-text {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    font-family: monospace;
+    transition: transform 0.2s, color 0.3s, text-shadow 0.3s;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    color: #bbb;
+    font-style: italic;
+    margin-top: 0.5rem;
+}
